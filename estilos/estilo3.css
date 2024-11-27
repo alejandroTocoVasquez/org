@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+}
+nav{
+    margin-left: 250px;
+    width: 1300px;
+    position: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    width: 100%;
+    height: 130px;
+}
+.img1{
+    position: fixed;
+    margin-top: 0px;
+    margin-left: 70px;
+}
+nav li .log{
+    background-color: black;
+    color: white;
+    font-size: 25px;
+    text-decoration: none;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    padding-right: 80px;
+    padding-left: 180px;
+    display: block;
+}
+
+ul{
+    list-style: none;
+}
+nav li a{
+    background-color: black;
+    color: white;
+    font-size: 25px;
+    text-decoration: none;
+    padding: 30px 80px;
+    display: block;
+}
+nav li a:hover{
+    background-color: gray;
+    text-decoration: none;
+}
+nav li{
+    float: left;
+}
+nav li ul{
+    display: none;
+    position: absolute;
+    min-width: 100px;
+}
+nav li ul li{
+    float: none;
+    position: relative;
+    left: -40px;
+}
+nav li:hover > ul{
+    display: block;
+}
+
+#contenido{
+    width: 100%;
+    height: 2100px;
+    border-bottom: 3px solid black;
+}
+#contenido .img2{
+    margin-left: 350px;
+    position: inherit;
+}
+footer{
+    width: 100%;
+    height: 250px;
+    background-color: black;
+}
+footer .div1{
+    float: left;
+    color: white;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+footer .div2{
+    float: left;
+    color: white;
+    margin-left: 600px;
+    margin-top: 30px;
+}
+footer .div3{
+    float: right;
+    color: white;
+    margin-right: 50px;
+    margin-top: 30px;
+}
+footer .div4{
+    position: absolute;
+    margin-top: 190px;
+    color: white;
+    margin-left: 670px;
+    text-align: center;
+    width: 600px;
+}
+footer h3{
+    font-size: 30px;
+    margin-bottom: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+footer p{
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+h2{
+    margin-top: 60px;
+    font-size: 65px;
+    color: darkgoldenrod;
+    margin-left: 500px;
+    font-family: broadway;
+}
+#vegetariano .img1{
+    position: inherit;
+    float: left;
+    margin-left: 220px;
+    margin-top: 80px;
+    
+}
+#vegetariano .img2{
+    float: left;
+    margin-left: 120px;
+    margin-top: 80px;
+}
+#vegetariano .img3{
+    margin-left: 120px;
+    margin-top: 80px;
+}
+#vegetariano{
+    width: 100%;
+    height: 800px;
+}
+#vegetariano .A{
+    margin-left: 170px;
+    margin-top: 80px;
+    width: 800px;
+    font-size: 25px;
+    float: left;
+}
+#contenido p{
+    margin-top: 80px;
+    font-size: 25px;
+    width: 800px;
+    height: 180px;
+    float: right;
+}
+#vegano .img5{
+    margin-top: 80px;
+    margin-left: 350px;
+}
+#vegano .img6{
+    margin-top: 80px;
+    margin-left: 100px;
+}
+#vegano .B{
+    margin-left: 170px;
+    margin-top: 80px;
+    width: 800px;
+    float: left;
+    font-size: 25px;
+}
+.B{
+    margin-top: 100px;
+    float: right;
+    width: 800px; 
+    font-size: 25px;
+}

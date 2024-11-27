@@ -1,0 +1,214 @@
+*{
+    margin: 0;
+}
+nav{
+    margin-left: 250px;
+    position: fixed;
+    width: 1300px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    width: 100%;
+    height: 130px;
+}
+.img1{
+    position: fixed;
+    margin-top: 0px;
+    margin-left: 70px;
+}
+nav li .log{
+    background-color: black;
+    color: white;
+    font-size: 25px;
+    text-decoration: none;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    padding-right: 80px;
+    padding-left: 180px;
+    display: block;
+}
+
+ul{
+    list-style: none;
+}
+nav li a{
+    background-color: black;
+    color: white;
+    font-size: 25px;
+    text-decoration: none;
+    padding: 30px 80px;
+    display: block;
+}
+nav li a:hover{
+    background-color: gray;
+    text-decoration: none;
+}
+nav li{
+    float: left;
+}
+nav li ul{
+    display: none;
+    position: absolute;
+    min-width: 100px;
+}
+nav li ul li{
+    float: none;
+    position: relative;
+    left: -40px;
+}
+nav li:hover > ul{
+    display: block;
+}
+
+#contenido{
+    width: 100%;
+    height: 1350px;
+    border-bottom: 3px solid black;
+}
+#contenido .img2{
+    margin-left: 350px;
+    position: inherit;
+}
+footer{
+    width: 100%;
+    height: 250px;
+    background-color: black;
+}
+footer .div1{
+    float: left;
+    color: white;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+footer .div2{
+    float: left;
+    color: white;
+    margin-left: 600px;
+    margin-top: 30px;
+}
+footer .div3{
+    float: right;
+    color: white;
+    margin-right: 50px;
+    margin-top: 30px;
+}
+footer .div4{
+    position: absolute;
+    margin-top: 190px;
+    color: white;
+    margin-left: 670px;
+    text-align: center;
+    width: 600px;
+}
+footer h3{
+    font-size: 30px;
+    margin-bottom: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+footer p{
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+div .registro{
+    width: 500px;
+    background-color: darkgoldenrod;
+    padding: 90px;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 80px;
+    font-family: Arial;
+    color: black;
+}
+.registro h3{
+    font-size: 60px;
+    margin-bottom: 20px;
+  text-align: center;
+    font-family: broadway;
+}
+.control{
+    width: 100%;
+    background-color: burlywood;
+    padding: 40px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    border: 5px solid black;
+    font-family: Arial;
+    font-size: 35px;
+}
+.boton{
+    width: 100%;
+    padding: 30px;
+    background: white;
+    border: 10px;
+    color: black;     
+    font-size: 30px;
+   border-radius: 25px;
+}
+#B{
+    display: inline-block;
+    width: 500px;
+    height: 700px;
+    margin-left: 90px;
+}
+#registro{
+    width: 400px;
+}
+#A{
+    margin-left: 50px;
+    margin-top: 10px;
+    width: 950px;
+    float: left;
+}
+#A h2{
+    font-size: 45px;
+    font-family: cooper black;
+    margin-top: 30px;
+}
+#A p{
+    font-size: 40px;
+    text-align: justify;
+    margin-top: 30px;
+}
+#A iframe{
+    border-radius: 40px;
+    margin-top: 50px;
+}
+footer .wat {
+    margin-left: 1500px;
+    position: absolute;
+    top: 1500px;
+    
+}
+footer .face {
+    margin-left: 1600px;
+    position: absolute;
+    top: 1500px;
+    
+}
+footer .insta {
+    margin-left: 1700px;
+    position: absolute;
+    top: 1500px;
+    
+}
+#Dat p{
+    font-size: 30px;
+    color: white;
+}
+#Dat p em{
+    font-size: 30px;
+    color: yellowgreen;
+}
+.cali a{
+    font-size: 25px;
+    padding: 30px;
+    color: white;
+    text-decoration: none;
+}
+.cali{
+    width: 230px;
+    height: 60px;
+    background-color: brown;
+    border-radius: 30px;
+    margin: auto;
+}
