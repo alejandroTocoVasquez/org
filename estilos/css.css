@@ -1,0 +1,258 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+#menu .img1{
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 40px;
+}
+.banner{
+    margin-top: 100px;
+}
+.img2{
+    margin-top: 100px;
+    margin-left: 350px;
+}
+#menu{
+    width: 100%;
+    background-color: cadetblue;
+    height: 90px;
+    position: fixed;
+    width: 100%;
+}
+#menu ul{
+    list-style: none;
+    overflow: hidden;
+}
+#menu ul li{
+    color: yellow;
+    float: left;
+    font-size: 25px;
+    margin-left: 100px;
+    font-family: sans-serif;
+}
+#menu ul li:hover{
+    background: orange;
+}
+#menu ul li a{
+    font-family: broadway;
+    display: block;
+    padding: 32.5px 90px;
+    color: white;
+    font-size: 25px;
+    text-decoration: none;
+}
+#menu ul li .ini{
+    font-family: broadway;
+    display: block;
+    padding-bottom: 32px;
+    padding-top: 33px;
+    padding-right: 90px;
+    padding-left: 130px;
+    color: white;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*contenido*/
+
+
+.contenido{
+    grid-area: column;
+    text-align: center;
+    font-size: 15px; color: white;
+}
+body{background-image: url(../img/1.gif);
+ background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    min-height: 100vh;
+}
+
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+    
+}
+.back{
+    padding:32px 0;
+    background-color: transparent;
+    
+}
+.menu{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+}
+.menu li{
+    display: inline-block;
+    text-align: center;
+}
+.logo{
+   
+    
+}
+.menu .navbar ul li {
+    position: relative;
+    float:left;
+    text-transform: uppercase;
+    font-family:arial, helvetica;
+    font-size: 50px;
+    
+    
+}
+.menu .navbar ul li a {
+    font-size: 18px;
+    padding: 28px;
+    color:white;
+    display: block;
+    font-family: cursive;
+}
+.menu .navbar ul li a:hover {
+    
+    color: whitesmoke;/*ccolor de las letras del menu de navegacion*/
+    background-image: url(../img/ob.png);/*efecto que da el mouse al pasar por los botones de navegacion*/
+    background-repeat: no-repeat;/* hace que la imagen se vea completa la imagen que sale en el efecto del hover*/
+    background-size: cover;/* ajusta el tamaño del hover a la del boton*/
+}
+/* aqui empieza el menu movil menu hamburgueza*/
+#menu{
+    display: none;/*esto indica que el icono hamburgueza no sera visible en pantalla completa*/
+    
+}
+.menu-icono{
+    width: 25px; /*icono hamburguesa*/
+}
+.menu label{
+    cursor: pointer;
+    display: none;
+}
+@media(max-width:991px){ /*menu hamburguesa*/
+    .menu{
+        padding: 30px;
+    }
+    .menu label{
+        display: initial;
+    }
+    .back{
+        padding: 45px 0;
+    }
+    .menu .navbar{
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background-color: #ffffff;
+        display: none;
+        
+    }
+    .menu .navbar ul li{
+        width: 100%;
+    }
+    #menu:checked ~ .navbar{
+        display: initial;
+    }
+}/*fin del menu hamburguesa*/
+
+
+
+/*pie de pagina
+
+
+*/
+
+/*pie de pagina*/
+.footer {
+  position: relative;
+  width: 100%;
+  background: black;
+  min-height: 100px;
+  padding: 20px 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.social-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin: 10px 5px;
+  flex-wrap: wrap;
+}
+
+.icon-elem {
+  list-style: none;
+}
+
+.icon {
+  color: white;
+  font-size: 32px;
+  display: inline-block;
+  margin: 0 10px;
+  transition: 0.5s;
+}
+
+.icon:hover {
+  transform: translateY(-10px);
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  align-items: center;
+  margin: 10px 0;
+  flex-wrap: wrap;
+}
+
+.menu-elem {
+  list-style: none;
+}
+.menu-icon {
+  color: white;
+  font-size: 20px;
+  display: inline-block;
+  text-decoration: none;
+  margin: 5px 10px;
+  opacity: 0.5;
+  transition: 0.3s;
+}
+
+.menu-icon:hover {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  font-size: 20px;
+}

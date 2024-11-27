@@ -9,13 +9,9 @@
 /* PUT IN YOUR SLIDER ID AND SIZE TO MAKE LOAD BEAUTIFULLY
    ================================================== */
 #featured { 
-	width: 1400px;
-	height: 600px;
-    margin-top: 0px;
-    position: inherit;
-    right: 0px;
-    left: 250px;
-	background: white url('orbit/loading.gif') no-repeat center center;
+	width: 940px;
+	height: 450px;
+	background: #000 url('orbit/loading.gif') no-repeat center center;
 	overflow: hidden; }
 #featured>img,  
 #featured>div,
@@ -53,7 +49,7 @@ div.orbit>a {
     display: none; }
 
 .orbit>div {
-    position: inherit;
+    position: absolute;
     top: 0;
     left: 0;
     width: 100%;
@@ -70,8 +66,8 @@ div.timer {
     height: 40px;
     overflow: hidden;
     position: absolute;
-    top: 120px;
-    right: -240px;
+    top: 10px;
+    right: 10px;
     opacity: .6;
     cursor: pointer;
     z-index: 1001; }
@@ -91,26 +87,25 @@ span.mask {
     width: 20px;
     height: 40px;
     position: absolute;
-    top: 0px;
+    top: 0;
     right: 0;
     z-index: 2;
     overflow: hidden; }
 
 span.rotator.move {
-    left: 0px; }
+    left: 0 }
 
 span.mask.move {
     width: 40px;
-    left: 0px;
+    left: 0;
     background: url(orbit/timer-black.png) repeat 0 0; }
 
 span.pause {
     display: block;
     width: 40px;
     height: 40px;
-    position: inherit;
+    position: absolute;
     top: 0;
-    right: 250px;
     left: 0;
     background: url(orbit/pause-black.png) no-repeat;
     z-index: 4;
@@ -163,16 +158,11 @@ div.slider-nav span {
 
 div.slider-nav span.right {
     background: url(orbit/right-arrow.png);
-    right: 0;
-    left: 1573px;
-    
-}
+    right: 0; }
 
 div.slider-nav span.left {
     background: url(orbit/left-arrow.png);
-    left: 250px;
-    position: absolute;
-}
+    left: 0; }
 
 /* BULLET NAV
    ================================================== */
